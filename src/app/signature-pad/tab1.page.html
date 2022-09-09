@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="end">
+            <ion-button color="light" expand="full" [disabled]="isCanvasBlank()" (click)="save()"> Salvar</ion-button>
+            <ion-button color="light" expand="full" (click)="undo()"> Desfazer</ion-button>
+            <ion-button color="light" expand="full" (click)="clear()"> Limpar </ion-button>
+        </ion-buttons>
+        <ion-title>
+            Signature pad
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <div class="signature-pad">
+        <div>
+            <canvas class="signature-pad-canvas" #canvas id="myCanvas" width="900" height="400" style="touch-action: none;" aria-placeholder="Assine aqui"></canvas>
+        </div>
+    </div>
+</ion-content>
