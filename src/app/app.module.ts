@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
-import { AndroidPermissions } from '@ionic-native/android-permissions';
-import { Base64ToGallery, Base64ToGalleryOriginal } from '@ionic-native/base64-to-gallery';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
