@@ -1,8 +1,6 @@
 import { Component, OnInit, ViewChild, HostListener, ElementRef, AfterViewInit } from '@angular/core';
 import SignaturePad from 'signature_pad';
 import { jsPDF } from "jspdf";
-import { Base64ToGallery, Base64ToGalleryOriginal } from '@ionic-native/base64-to-gallery';
-import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
 // import { PDFGenerator } from '@ionic-native/pdf-generator';
 
 @Component({
