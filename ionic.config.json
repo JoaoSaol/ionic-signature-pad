@@ -1,7 +1,8 @@
 {
-  "name": "ionicSign",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
+    "name": "ionicSign",
+    "integrations": {
+        "cordova": {}
+    },
+    "type": "angular",
+    "id": "1212"
 }
